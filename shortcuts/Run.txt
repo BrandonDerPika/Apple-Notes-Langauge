@@ -1,0 +1,14 @@
+Recieve 'Text and Apps' input from 'Share Sheet'
+If there's no input: 'Stop and Respond' 'No input!'
+
+Set variable 'MachineCode' to 'Shortcut Input'
+
+Split 'MachineCode' by 'New Lines'
+
+Get 'Item at Index' '1' from 'Split Text'
+
+Set variable 'Title' to 'Item from List'
+
+Run 'NotepadFrontend' with 'MachineCode'
+
+Show alert 'Output'

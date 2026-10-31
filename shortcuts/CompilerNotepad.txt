@@ -1,0 +1,8 @@
+Receive 'Text and Apps' input from 'Share Sheet'
+if there's no input: 'Stop and Respond' 'No input!'
+
+Set variable 'SourceCode' to 'Shortcut Input'
+
+Run 'NotepadCompiler' with 'SourceCode'
+
+Create note with 'Output' in 'Notes'
